@@ -10,14 +10,29 @@ const Nav = () => {
         <div className='container'>
           <div className={styles.flexContainer}>
             <div className={styles.brandContainer}>
-              <Image src='/img/logo.svg' width='140px' height='20px' />
+              <Image
+                className={styles.brand}
+                src='/img/logo.svg'
+                width='140px'
+                height='20px'
+              />
             </div>
             <ul className={styles.navList}>
-              <li>Home</li>
-              <li>About</li>
-              <li>Contact</li>
-              <li>Blog</li>
-              <li>Careers</li>
+              <li>
+                <div className={styles.bottom}>Home</div>
+              </li>
+              <li>
+                <div className={styles.bottom}>About</div>
+              </li>
+              <li>
+                <div className={styles.bottom}>Contact</div>
+              </li>
+              <li>
+                <div className={styles.bottom}>Blog</div>
+              </li>
+              <li>
+                <div className={styles.bottom}>Careers</div>
+              </li>
             </ul>
             <button
               className={`${styleBtn["btn"]} ${styleBtn["btn--nav"]} ${styles.navBtn}`}
