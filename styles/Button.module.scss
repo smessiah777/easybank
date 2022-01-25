@@ -19,6 +19,7 @@
   color: #fff;
   font-size: 1rem;
   font-weight: 500;
+  padding: 10px 0;
 
   &--nav {
     visibility: hidden;
@@ -26,6 +27,14 @@
     @media (min-width: 768px) {
       visibility: visible;
       display: inline-block;
+      margin-bottom: 30px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    &:hover {
+      opacity: 0.4;
+      cursor: pointer;
     }
   }
 }

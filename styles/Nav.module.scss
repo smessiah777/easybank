@@ -3,8 +3,9 @@
   background-color: #fff;
   width: 100%;
   height: 64px;
-  padding: 22px 0;
+  padding: 20px 0 0 0;
   z-index: 300;
+  // border: 1px solid #000;
 
   @media (min-width: 768px) {
     height: 80px;
@@ -23,6 +24,13 @@
 }
 
 .brandContanier {
+  margin-bottom: 15px;
+}
+
+.brand {
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .navList {
@@ -38,10 +46,30 @@
 
     li {
       list-style-type: none;
-      padding-left: 30px;
+      // padding-left: 30px;
       color: #97969b;
+      padding: 0px 0 0px 30px;
     }
   }
+}
+
+.bottom {
+  border-bottom: 3px solid transparent;
+
+  &:hover {
+    border-color: #31d8aeca;
+    cursor: pointer;
+  }
+
+  @media (min-width: 768px) {
+    height: 48px;
+  }
+}
+
+.hoverBlock {
+  display: none;
+  width: 51px;
+  height: 4px;
 }
 
 .hamburger {

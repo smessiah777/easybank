@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import HeroSection from "../components/landing/Hero";
 import ServicesSection from "../components/landing/Services";
+import ArticlesSection from "../components/landing/Articles";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       </Head>
       <HeroSection />
       <ServicesSection />
+      <ArticlesSection />
     </>
   );
 }

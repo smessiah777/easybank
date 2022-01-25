@@ -1,6 +1,6 @@
 .hero {
-  background: #f4f5f7 url(../public/img/bg-intro-mobile.svg) no-repeat;
-
+  background: #fafafa url(../public/img/bg-intro-mobile.svg) no-repeat;
+  background-size: 100%;
   overflow: hidden;
 
   @media (min-width: 768px) {
@@ -61,7 +61,7 @@
 
   @media (min-width: 768px) {
     text-align: left;
-    padding: 11rem 0 0 10.625rem;
+    padding: 11rem 0 0 0;
 
     h2 {
       text-align: left;
@@ -78,7 +78,6 @@
   }
 
   @media (min-width: 1536px) {
-    padding: 11rem 0 0 7.625rem;
   }
 }
 

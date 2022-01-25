@@ -1,4 +1,54 @@
 .services {
   background-color: #f4f5f7;
-  height: 677px;
+  height: auto;
+
+  @media (min-width: 768px) {
+    // height: 677px;
+  }
+}
+
+.flexText {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    align-content: center;
+  }
+}
+
+.textContent {
+  text-align: center;
+  margin-top: 4.375rem;
+  h2 {
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: #262743;
+  }
+
+  p {
+    color: #a5a6ab;
+    line-height: 1.4;
+    font-size: 0.875rem;
+    margin-bottom: 2.375rem;
+  }
+
+  @media (min-width: 768px) {
+    margin-top: 12.375rem;
+    h2 {
+      text-align: left;
+    }
+
+    p {
+      text-align: left;
+    }
+  }
+}
+
+.flexCards {
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+  }
 }
