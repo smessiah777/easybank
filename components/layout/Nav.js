@@ -35,7 +35,7 @@ const Nav = () => {
               </li>
             </ul>
             <button
-              className={`${styleBtn["btn"]} ${styleBtn["btn--nav"]} ${styles.navBtn}`}
+              className={`${styleBtn["btn"]} ${styleBtn["btn__nav"]} ${styles.navBtn}`}
             >
               Request Invite
             </button>

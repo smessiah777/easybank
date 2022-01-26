@@ -2,16 +2,24 @@
   width: 327px;
   height: 395px;
   background-color: #fff;
+  margin-top: 24px;
+
   &:first-of-type {
     margin-top: 40px;
   }
 
-  margin-top: 24px;
+  &:last-of-type {
+    margin-bottom: 40px;
+  }
 
   @media (min-width: 768px) {
     margin-right: 28px;
     &:first-of-type {
       margin-top: 24px;
+    }
+
+    &:last-of-type {
+      margin-bottom: 0;
     }
   }
 }

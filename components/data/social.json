@@ -1,0 +1,35 @@
+[
+
+    {
+        "id": 1,
+        "icon": "/img/icon-facebook.svg",
+        "name": "Facebook"
+
+    },
+    {
+        "id": 2,
+        "icon": "/img/icon-youtube.svg",
+        "name": "YouTube"
+
+    },
+    {
+        "id": 3,
+        "icon": "/img/icon-twitter.svg",
+        "name": "Twitter"
+
+    },
+    {
+        "id": 4,
+        "icon": "/img/icon-pinterest.svg",
+        "name": "Pinterest"
+
+    },
+    {
+        "id": 5,
+        "icon": "/img/icon-instagram.svg",
+        "name": "Instagram"
+
+    }
+    
+
+]
