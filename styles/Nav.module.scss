@@ -7,7 +7,7 @@
   z-index: 300;
   // border: 1px solid #000;
 
-  @media (min-width: 768px) {
+  @media (min-width: 1024px) {
     height: 80px;
   }
 }
@@ -17,7 +17,7 @@
   flex-direction: row;
   justify-content: space-between;
 
-  @media (min-width: 768px) {
+  @media (min-width: 1024px) {
     justify-content: center;
     align-items: center;
   }
@@ -37,7 +37,7 @@
   visibility: hidden;
   display: none;
 
-  @media (min-width: 768px) {
+  @media (min-width: 1024px) {
     visibility: visible;
     display: flex;
     flex-direction: row;
@@ -61,7 +61,7 @@
     cursor: pointer;
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 1024px) {
     height: 48px;
   }
 }
@@ -73,7 +73,7 @@
 }
 
 .hamburger {
-  @media (min-width: 768px) {
+  @media (min-width: 1024px) {
     display: none;
     visibility: hidden;
   }
