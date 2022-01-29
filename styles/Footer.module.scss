@@ -75,7 +75,7 @@
 
   li {
     &:hover {
-      color: #3cce90 !important;
+      color: #3cce90;
       cursor: pointer;
     }
   }
@@ -93,7 +93,7 @@
 
   @media (min-width: 1024px) {
     justify-content: flex-end;
-    padding: 0 0 0 36%;
+    padding: 0 0 0 35%;
   }
 }
 

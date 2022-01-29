@@ -33,39 +33,6 @@
   }
 }
 
-.navList {
-  visibility: hidden;
-  display: none;
-
-  @media (min-width: 1024px) {
-    visibility: visible;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 0 auto;
-
-    li {
-      list-style-type: none;
-      // padding-left: 30px;
-      color: #97969b;
-      padding: 0px 0 0px 30px;
-    }
-  }
-}
-
-.bottom {
-  border-bottom: 3px solid transparent;
-
-  &:hover {
-    border-color: #31d8aeca;
-    cursor: pointer;
-  }
-
-  @media (min-width: 1024px) {
-    height: 48px;
-  }
-}
-
 .hoverBlock {
   display: none;
   width: 51px;
@@ -73,6 +40,13 @@
 }
 
 .hamburger {
+  @media (min-width: 1024px) {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+.close {
   @media (min-width: 1024px) {
     display: none;
     visibility: hidden;

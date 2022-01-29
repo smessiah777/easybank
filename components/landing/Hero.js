@@ -4,11 +4,11 @@ import styles from "../../styles/Hero.module.scss";
 import Button from "../common/Button";
 import Nav from "../../components/layout/Nav";
 
-const Hero = () => {
+const Hero = (menuOpen, setMenuOpen) => {
   return (
     <>
       <section className={`${styles.hero} section`}>
-        <Nav />
+        {/* <Nav menuOpen={menuOpen} setMenuOpen={setMenuOpen} /> */}
         <img
           className={styles.mockup}
           src='/img/image-mockups.png'

@@ -1,0 +1,22 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow-y: hidden;
+  padding-top: 23%;
+}
+
+.menuContainer {
+  background: white;
+  width: 327px;
+  height: 264px;
+  border-radius: 15px;
+  padding: 15px;
+}

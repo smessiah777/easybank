@@ -24,7 +24,7 @@
   &__nav {
     visibility: hidden;
     display: none;
-    @media (min-width: 768px) {
+    @media (min-width: 1024px) {
       visibility: visible;
       display: inline-block;
       margin-bottom: 30px;

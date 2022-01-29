@@ -1,11 +1,17 @@
+import { useState } from "react";
 import Head from "next/head";
 import Image from "next/image";
+import ClientPortal from "../components/ClientPortal";
+import Nav from "../components/layout/Nav";
+import MobileMenu from "../components/common/MobileMenu";
 import HeroSection from "../components/landing/Hero";
 import ServicesSection from "../components/landing/Services";
 import ArticlesSection from "../components/landing/Articles";
 import Footer from "./../components/layout/Footer";
 
 export default function Home() {
+  const [showMenu, setShowMenu] = useState(false);
+
   return (
     <>
       <Head>
@@ -17,6 +23,14 @@ export default function Home() {
           rel='stylesheet'
         />
       </Head>
+      <Nav
+        show={showMenu}
+        onOpen={() => setShowMenu(true)}
+        onClose={() => setShowMenu(false)}
+      />
+
+      <MobileMenu show={showMenu} onClose={() => setShowMenu(false)} />
+
       <HeroSection />
       <ServicesSection />
       <ArticlesSection />

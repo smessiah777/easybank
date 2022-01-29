@@ -18,11 +18,14 @@ a {
 }
 
 .section {
-  min-height: 656px;
-  height: 100vh;
+  height: 672px;
   width: 100%;
 
   @media (min-width: 768px) {
+    height: 80vh;
+  }
+  @media (min-width: 1024px) {
+    min-height: 656px;
     height: 656px;
   }
 }
@@ -36,6 +39,11 @@ a {
   }
 
   @media (min-width: 1024px) {
+    width: 90%;
+    max-width: 1280px;
+  }
+
+  @media (min-width: 1440px) {
     width: 75%;
     max-width: 1280px;
   }
@@ -55,4 +63,20 @@ a {
   .em_show {
     display: none;
   }
+}
+
+// Classes below apply to nav links based on desktop and mobile instance
+.nav-hidden {
+  display: none;
+  visibility: hidden;
+
+  @media (min-width: 1024px) {
+    display: flex;
+    visibility: visible;
+  }
+}
+
+.nav-visible {
+  display: flex;
+  visibility: visible;
 }
