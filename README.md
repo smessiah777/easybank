@@ -1,34 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center" style="font-weight:600;">Easybank landing page </h1>
+<br>
+<br>
+<p align="center">
+  <img width="300" height="300" src="./public/img/readme/easybank.png">
+</p>
 
-## Getting Started
+## Overview
 
-First, run the development server:
+A fictional bank landing page, built from the [Frontend Mentor](https://www.frontendmentor.io/) Challenge series.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Project Showcase
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Built a React page to showcase the following:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- My ability to build a client UI based of a designers mockup.
+- My ability to use React and NextJS React framework.
+- The results of jumping back into using Sass and SCSS but this time within NextJS.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Project Execution
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Technologies Used
 
-## Learn More
+- React
+- NextJS
+- SCSS
+- Git
+- GitHub
 
-To learn more about Next.js, take a look at the following resources:
+## Victories and Challenges
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Victories:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Was able to build landing page based on design.
+- Gained more experience using the NextJS framework.
 
-## Deploy on Vercel
+### Challenge
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- I have never used React portals within the NextJS framework before.
+- I was able use React portals to create the functionality for the mobile modal menu.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Visuals
+
+<p align="center">
+  <img width="369" height="577" src="./public/img/readme/easybank-mobile.gif">
+</p>
+
+<p align="center">
+  <img width="1436" height="" src="./public/img/readme/easybank-desktop.gif">
+</p>
