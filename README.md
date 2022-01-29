@@ -13,7 +13,7 @@ A fictional bank landing page, built from the [Frontend Mentor](https://www.fron
 
 Built a React page to showcase the following:
 
-- My ability to build a client UI based of a designers mockup.
+- My ability to build a client UI based on a designer's mockup.
 - My ability to use React and NextJS React framework.
 - The results of jumping back into using Sass and SCSS but this time within NextJS.
 
