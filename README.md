@@ -17,7 +17,6 @@ Built a React page to showcase the following:
 - My ability to use React and NextJS React framework.
 - The results of jumping back into using Sass and SCSS but this time within NextJS.
 
-## Project Execution
 
 ### Technologies Used
 
@@ -27,17 +26,6 @@ Built a React page to showcase the following:
 - Git
 - GitHub
 
-## Victories and Challenges
-
-### Victories:
-
-- Was able to build landing page based on design.
-- Gained more experience using the NextJS framework.
-
-### Challenge
-
-- I have never used React portals within the NextJS framework before.
-- I was able use React portals to create the functionality for the mobile modal menu.
 
 ## Visuals
 
